@@ -1,10 +1,15 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Footer from '../components/Footer';
+import HomeCarousel from '../components/HomeCarousel';
+import MainGrid from '../components/MainGrid';
 
 function Home() {
   return (
     <>
-      <h1>ok</h1>
+      <MainGrid>
+        <h1 style={{ backgroundColor: 'gray' }}>ok</h1>
+        <HomeCarousel />
+      </MainGrid>
       <Footer />
     </>
   );
