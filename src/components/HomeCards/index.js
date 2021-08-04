@@ -65,7 +65,7 @@ export default function HomeCard() {
       <Box>
         {products.map((product) => (
           <Container>
-            <img src={product.imageUrl} />
+            <img src={product.imageUrl} alt="Imagem do produto" />
             <Title>{product.name}</Title>
           </Container>
         ))}
