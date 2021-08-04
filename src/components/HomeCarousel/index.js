@@ -1,10 +1,33 @@
 import React from 'react';
-import Grid from '@material-ui/core/Grid';
+import Carousel from 'react-bootstrap/Carousel';
 
 export default function HomeCarousel() {
+  const imgUrl = '/assets/images/';
   return (
     <>
-      <h1>ok</h1>
+      <Carousel>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={`${imgUrl}homeCarousel01.svg`}
+            alt="First slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={`${imgUrl}homeCarousel02.svg`}
+            alt="Second slide"
+          />
+        </Carousel.Item>
+        <Carousel.Item>
+          <img
+            className="d-block w-100"
+            src={`${imgUrl}homeCarousel03.svg`}
+            alt="Third slide"
+          />
+        </Carousel.Item>
+      </Carousel>
     </>
   );
 }

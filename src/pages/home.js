@@ -7,7 +7,6 @@ function Home() {
   return (
     <>
       <MainGrid>
-        <h1 style={{ backgroundColor: 'gray' }}>ok</h1>
         <HomeCarousel />
       </MainGrid>
       <Footer />
