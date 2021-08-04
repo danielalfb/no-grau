@@ -5,7 +5,7 @@ export const Box = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  margin: 50px 0;
+  margin: 10px 0;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
 `;

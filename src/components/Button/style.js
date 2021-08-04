@@ -3,11 +3,11 @@ import styled from 'styled-components';
 export const Box = styled.div`
   display: flex;
   justify-content: center;
+  margin-bottom: 75px;
 `;
 
 export const Button = styled.a`
   width: 200px;
-  font-family: 'Roboto', sans-serif;
   padding: 16px;
   background: #000;
   border-radius: 6px;
