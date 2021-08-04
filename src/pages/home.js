@@ -4,11 +4,11 @@ import HomeCarousel from '../components/HomeCarousel';
 import MainGrid from '../components/MainGrid';
 import TitleSubtitleCenter from '../components/TitleSubtitle';
 
-function Home() {
+export default function Home() {
   return (
     <>
       <MainGrid>
-        <HomeCarousel />
+        <HomeCarousel />;
         <TitleSubtitleCenter
           title="Dá só uma olhada!"
           subtitle="Selecionamos com cuidado e amor alguns dos modelos mais queridinhos de todes!"
@@ -18,5 +18,3 @@ function Home() {
     </>
   );
 }
-
-export default Home;
