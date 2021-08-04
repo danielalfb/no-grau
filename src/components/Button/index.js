@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Button, Link } from './style';
+import { Box, Button } from './style';
 
 export default function ButtonHome(props) {
   return (
