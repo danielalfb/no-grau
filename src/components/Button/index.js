@@ -5,9 +5,7 @@ export default function ButtonHome(props) {
   return (
     <>
       <Box>
-        <Link href={props.link}>
-          <Button>{props.title}</Button>
-        </Link>
+        <Button href={props.link}>{props.title}</Button>
       </Box>
     </>
   );

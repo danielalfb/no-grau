@@ -5,7 +5,7 @@ export const Box = styled.div`
   justify-content: center;
 `;
 
-export const Button = styled.button`
+export const Button = styled.a`
   width: 200px;
   font-family: 'Roboto', sans-serif;
   padding: 16px;
@@ -15,8 +15,10 @@ export const Button = styled.button`
   font-size: 18px;
   text-align: center;
   border: none;
-`;
-
-export const Link = styled.a`
   text-decoration: none;
+
+  &:hover {
+    background: #5e6e89;
+    color: #fff;
+  }
 `;
