@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../components/Button';
 import Footer from '../components/Footer';
 import HomeCarousel from '../components/HomeCarousel';
 import MainGrid from '../components/MainGrid';
@@ -8,11 +9,12 @@ export default function Home() {
   return (
     <>
       <MainGrid>
-        <HomeCarousel />;
+        <HomeCarousel />
         <TitleSubtitleCenter
           title="Dá só uma olhada!"
           subtitle="Selecionamos com cuidado e amor alguns dos modelos mais queridinhos de todes!"
         />
+        <Button link="/home" title="Veja Mais!" />
       </MainGrid>
       <Footer />
     </>
