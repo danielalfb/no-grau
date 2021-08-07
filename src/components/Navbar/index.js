@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Nav, Menu, NavLink, Bars, Logo } from './style';
-import logo from '../../images/no-grau-logo.svg';
+import logo from '../../../public/assets/images/no-grau-logo.svg';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -32,4 +32,4 @@ const Navbar = () => {
 
 export default Navbar;
 
-// ajustar o caminho da pasta de foto com a pasta de images do repo
+
