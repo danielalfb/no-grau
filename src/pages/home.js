@@ -1,13 +1,24 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import React from 'react';
+import Button from '../components/Button';
 import Footer from '../components/Footer';
+import HomeCard from '../components/HomeCards';
+import HomeCarousel from '../components/HomeCarousel';
+import MainGrid from '../components/MainGrid';
+import TitleSubtitleCenter from '../components/TitleSubtitle';
 
-function Home() {
+export default function Home() {
   return (
     <>
-      <h1>ok</h1>
+      <MainGrid>
+        <HomeCarousel />
+        <TitleSubtitleCenter
+          title="Dá só uma olhada!"
+          subtitle="Selecionamos com cuidado e amor alguns dos modelos mais queridinhos de todes!"
+        />
+        <HomeCard />
+        <Button link="/home" title="Veja Mais!" />
+      </MainGrid>
       <Footer />
     </>
   );
 }
-
-export default Home;

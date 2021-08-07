@@ -1,7 +1,7 @@
 import React from 'react';
 import { Box, Container, Text } from './style';
 
-const Footer = () => {
+export default function Footer() {
   return (
     <Box>
       <Container>
@@ -11,5 +11,4 @@ const Footer = () => {
       </Container>
     </Box>
   );
-};
-export default Footer;
+}
