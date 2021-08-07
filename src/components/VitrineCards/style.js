@@ -17,7 +17,7 @@ export const CardText = styled.p`
   line-height: 21px;
   text-align: center;
   display: flex;
-align-items: center;
+  align-items: center;
   color: #000;
 `;
 
@@ -26,7 +26,6 @@ export const CardDescription = styled.p`
   font-weight: 300;
   font-size: 16px;
   line-height: 16px;
-  // text-align: center;
   color: #000;
 
   @media (max-width: 768px) {
@@ -35,12 +34,14 @@ export const CardDescription = styled.p`
 `;
 
 export const Cards = styled.div`
-display: flex;
-justify-content: center;
+
 
   @media screen and (max-width: 768px) {
-    height: 200px;
-  }
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
 `;
 
 export const CardFlex = styled.div`
@@ -49,15 +50,13 @@ export const CardFlex = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 200px;
+    height: 120px; 
   }
 `;
 
 export const Img = styled.div`
   @media screen and (max-width: 768px) {
-    width: 161px;
+    width: 200px;
     height: 65px;
   }
 `;
-
-// testar outros tamanhos de imagens

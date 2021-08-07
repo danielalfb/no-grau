@@ -27,11 +27,11 @@ function VitrineCards() {
 
   return (
     <>
-      <Row xs={1} md={4} style={{ marginLeft: '50px', marginRight: '50px'}}>
+      <Row xs={1} md={4} style={{ marginLeft: '30px', marginRight: '30px'}}>
         {data.map((product) => (
-          <Col style={{ marginTop: '50px', marginBottom: '50px'}}>
+          <Col style={{ marginTop: '30px', marginBottom: '30px'}}>
             <Cards>
-              <Card style={{ height: '380px', width: '280px', border: '1px solid #FFFFFF', boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)', borderRadius: '10px', boxSizing: 'border-box' }}>
+              <Card style={{ height: '380px', width: '280px', border: '1px solid #fff', boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.25)', borderRadius: '10px', boxSizing: 'border-box' }}>
                 <CardFlex>
                   <Img>
                     <Card.Img variant="top" src={product.imageUrl} />
@@ -49,7 +49,6 @@ function VitrineCards() {
           </Col>
         ))}
       </Row>
-      )
     </>
   );
 }
