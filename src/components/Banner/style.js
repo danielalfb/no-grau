@@ -12,4 +12,4 @@ margin-right: auto;
   }
 `;
 
-// pendência: o footer está sobrepondo a imagem 
+// pendência: o footer está sobrepondo a imagem e a resolução está ruim
