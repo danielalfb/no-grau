@@ -1,11 +1,11 @@
 import React from 'react';
 import { Banner } from './style';
-import banner from '../../images/image-plp.png'
+import banner from '../../assets/images/banner.png';
 
 const VitrineBanner = () => {
   return (
     <Banner>
-      <img src={banner} alt="banner" />
+      <img src={banner} alt="Banner " />
     </Banner>
   );
 };

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Nav, Menu, NavLink, Bars, Logo } from './style';
-import logo from '../../../public/assets/images/no-grau-logo.svg';
+import logo from '../../assets/images/no-grau-logo.svg';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
