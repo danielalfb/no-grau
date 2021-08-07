@@ -1,16 +1,15 @@
 import React from 'react';
 import VitrineBanner from '../components/Banner/index.js';
 import VitrineCards from '../components/VitrineCards';
-import { Subtitle, Title } from '../components/VitrineStyle';
+import TitleSubtitleCenter from '../components/TitleSubtitle';
 
 function Vitrine() {
   return (
     <div>
-      <Title>Todos os produtos</Title>
-      <br />
-      <Subtitle>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-      </Subtitle>
+      <TitleSubtitleCenter
+        title="Todos os produtos"
+        subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+      />
       <div>
         <VitrineCards />
       </div>
