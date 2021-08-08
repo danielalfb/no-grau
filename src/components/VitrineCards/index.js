@@ -1,14 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {
-  CardTitle,
-  CardText,
-  CardDescription,
-  Cards,
-  CardFlex,
-  Img,
-} from './style';
-import { Card, Col, Row } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Box, CardTitle, CardText, CardDescription, CardFlex, Img } from './style';
 function VitrineCards() {
   const [data, setData] = useState([]);
 
@@ -16,7 +7,6 @@ function VitrineCards() {
     fetch('https://no-grau2347.herokuapp.com/products')
       .then((res) => res.json())
       .then((json) => {
-        console.log(json);
         setData(json);
       });
   };
@@ -27,28 +17,25 @@ function VitrineCards() {
 
   return (
     <>
-      <Row xs={1} md={4} style={{ marginLeft: '30px', marginRight: '30px'}}>
-        {data.map((product) => (
-          <Col style={{ marginTop: '30px', marginBottom: '30px'}}>
-            <Cards>
-              <Card style={{ height: '380px', width: '280px', border: '1px solid #fff', boxShadow: '0px 1px 1px rgba(0, 0, 0, 0.25)', borderRadius: '10px', boxSizing: 'border-box' }}>
+      <Box>
+        {data &&
+          data.map((product) => {
+            const { id, imageUrl, name, formatId, description } = product;
+            if (id !== " ")
+              return (
                 <CardFlex>
                   <Img>
-                    <Card.Img variant="top" src={product.imageUrl} />
+                  <img src={imageUrl} alt="Imagem do óculos" />
                   </Img>
                   <div>
-                    <Card.Body>
-                      <CardTitle>{product.name}</CardTitle>
-                      <CardText>{product.formatId}</CardText>
-                      <CardDescription>{product.description}</CardDescription>
-                    </Card.Body>
+                  <CardTitle>{name}</CardTitle>
+                  <CardText>{formatId}</CardText>
+                  <CardDescription>{description}</CardDescription>
                   </div>
                 </CardFlex>
-              </Card>
-            </Cards>
-          </Col>
-        ))}
-      </Row>
+              );
+          })}
+      </Box>
     </>
   );
 }
