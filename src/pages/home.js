@@ -5,7 +5,7 @@ import HomeCarousel from '../components/HomeCarousel';
 import MainGrid from '../components/MainGrid';
 import TitleSubtitleCenter from '../components/TitleSubtitle';
 
-export default function Home() {
+const Home = () => {
   return (
     <>
       <MainGrid>
@@ -15,8 +15,10 @@ export default function Home() {
           subtitle="Selecionamos com cuidado e amor alguns dos modelos mais queridinhos de todes!"
         />
         <HomeCard />
-        <Button link="/home" title="Veja Mais!" />
+        <Button link="/vitrine" title="Veja Mais!" />
       </MainGrid>
     </>
   );
-}
+};
+
+export default Home;
