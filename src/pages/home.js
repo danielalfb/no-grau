@@ -1,6 +1,5 @@
 import React from 'react';
 import Button from '../components/Button';
-import Footer from '../components/Footer';
 import HomeCard from '../components/HomeCards';
 import HomeCarousel from '../components/HomeCarousel';
 import MainGrid from '../components/MainGrid';
@@ -18,7 +17,6 @@ export default function Home() {
         <HomeCard />
         <Button link="/home" title="Veja Mais!" />
       </MainGrid>
-      <Footer />
     </>
   );
 }
