@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import MainGrid from '../MainGrid';
 import {
-  Checkbox,
+  Radio,
   FormControl,
   FormControlLabel,
-  FormGroup,
+  RadioGroup,
   FormLabel,
 } from '@material-ui/core';
 import { Box, BoxFilter, BoxResult } from './style';
 
-function HandleFilter() {
+export default function Filter() {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
@@ -18,10 +18,10 @@ function HandleFilter() {
       .then((data) => setProducts(data));
   }, []);
 
-  products.filter();
-}
+  const handleSelect = (value) => {
+    console.log(value);
+  };
 
-const Filter = () => {
   return (
     <>
       <MainGrid>
@@ -30,69 +30,87 @@ const Filter = () => {
             <h1>Filtro</h1>
             <FormControl>
               <FormLabel className="form-label">Material</FormLabel>
-              <FormGroup aria-label="filtro" row>
+              <RadioGroup aria-label="filtro" row>
                 <FormControlLabel
-                  value="acetato"
+                  value="1"
                   label="Acetato"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
                 <FormControlLabel
-                  value="metalico"
+                  value="2"
                   label="Metálico"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
-              </FormGroup>
+              </RadioGroup>
               <FormLabel className="form-label">Formato</FormLabel>
-              <FormGroup aria-label="filtro" column>
+              <RadioGroup aria-label="filtro" column>
                 <FormControlLabel
-                  value="redondo"
+                  value="1"
                   label="Redondo"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
                 <FormControlLabel
-                  value="oval"
+                  value="2"
                   label="Oval"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
                 <FormControlLabel
-                  value="aviador"
+                  value="3"
                   label="Aviador"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
                 <FormControlLabel
-                  value="quadrado"
+                  value="4"
                   label="Quadrado"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
-              </FormGroup>
+              </RadioGroup>
               <FormLabel className="form-label">Cores</FormLabel>
-              <FormGroup aria-label="filtro" row>
+              <RadioGroup aria-label="filtro" row>
                 <FormControlLabel
                   className="option-label"
-                  value="preto"
+                  value="1"
                   label="Preto"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
                 <FormControlLabel
-                  value="transparente"
+                  value="2"
                   label="Transparente"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
                 <FormControlLabel
-                  value="tartaruga"
+                  value="3"
                   label="Tartaruga"
-                  control={<Checkbox />}
+                  control={
+                    <Radio onChange={(e) => handleSelect(e.target.value)} />
+                  }
                   labelPlacement="end"
                 />
-              </FormGroup>
+              </RadioGroup>
             </FormControl>
           </BoxFilter>
 
@@ -104,6 +122,4 @@ const Filter = () => {
       </MainGrid>
     </>
   );
-};
-
-export default Filter;
+}

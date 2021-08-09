@@ -6,6 +6,10 @@ export const Box = styled.div`
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 `;
 
 export const BoxFilter = styled.div`
@@ -16,10 +20,15 @@ export const BoxFilter = styled.div`
   border-radius: 20px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
   h1 {
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    font-size: 32px;
+    font-size: 36px;
     line-height: 58px;
     /* identical to box height, or 180% */
 
@@ -47,4 +56,8 @@ export const BoxResult = styled.div`
   background: #ffffff;
   border-radius: 20px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+  @media screen and (max-width: 768px) {
+    width: 100%;
+  }
 `;
