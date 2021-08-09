@@ -12,7 +12,7 @@ const Navbar = () => {
         </Logo>
         <Bars onClick={() => setIsOpen(!isOpen)} />
         <Menu isOpen={isOpen}>
-          <NavLink to="/home" activeStyle>
+          <NavLink exact to="/" activeStyle>
             Home
           </NavLink>
           <NavLink to="/quem-somos" activeStyle>
