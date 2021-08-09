@@ -6,6 +6,7 @@ const MainGrid = styled.main`
 
   @media (max-width: 768px) {
     margin-top: 25px;
+    padding: 20px;
   }
 `;
 
