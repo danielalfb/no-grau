@@ -2,6 +2,7 @@ import React from 'react';
 import VitrineBanner from '../components/Banner/index.js';
 import VitrineCards from '../components/VitrineCards';
 import TitleSubtitleCenter from '../components/TitleSubtitle';
+import banner from '../assets/images/banner.svg';
 
 function Vitrine() {
   return (
@@ -14,7 +15,7 @@ function Vitrine() {
         <VitrineCards />
       </div>
       <div>
-        <VitrineBanner />
+        <VitrineBanner image={banner} />
       </div>
     </div>
   );

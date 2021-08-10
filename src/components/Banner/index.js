@@ -1,11 +1,10 @@
 import React from 'react';
 import { Banner } from './style';
-import banner from '../../assets/images/banner.svg';
 
-const VitrineBanner = () => {
+const VitrineBanner = (props) => {
   return (
     <Banner>
-      <img src={banner} alt="Banner " />
+      <img src={props.image} alt="Banner " />
     </Banner>
   );
 };
