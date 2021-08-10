@@ -1,13 +1,12 @@
 import React from 'react';
-import { Sobre } from './style';
-import sobre from '../../assets/images/sobre.svg';
+import { Banner } from './style';
 
-const Sobre = () => {
+const SobreBanner = (props) => {
   return (
-    <Sobre>
-      <img src={sobre} alt="sobre" />
-    </Sobre>
+    <Banner>
+      <img src={props.image} alt="sobre" />
+    </Banner>
   );
 };
 
-export default Sobre;
+export default SobreBanner;
