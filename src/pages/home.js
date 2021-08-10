@@ -16,7 +16,7 @@ const Home = () => {
         />
         <HomeCard />
         <Button link="/vitrine" title="Veja Mais!" />
-      </MainGrid>
+        </MainGrid>
     </>
   );
 };
