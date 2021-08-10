@@ -19,7 +19,7 @@ export const Title = styled.h1`
 `;
 
 export const Subtitle = styled.p`
-  width: 400px;
+  width: 500px;
   font-size: 18px;
   line-height: 28px;
   letter-spacing: 0.1px;
