@@ -18,9 +18,9 @@ export default function Filter() {
       .then((data) => setProducts(data));
   }, []);
 
-  const handleSelect = (value) => {
-    console.log(value);
-  };
+  // const [checked, setChecked] = useState();
+
+  const handleSelect = (e) => {};
 
   return (
     <>
