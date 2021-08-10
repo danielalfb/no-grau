@@ -1,14 +1,15 @@
 import styled from 'styled-components';
 
 export const Banner = styled.div`
-img {
-display: block; 
-margin-left: auto; 
-margin-right: auto;
-}
+  img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+  }
 
-@media screen and (max-width: 768px) {
-  display: none;
+  @media screen and (max-width: 768px) {
+    display: none;
   }
 `;
 
