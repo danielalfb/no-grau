@@ -77,6 +77,7 @@ function VitrineCards() {
         {data &&
           data.map((product) => {
             const { id, imageUrl, name, formatId, materialId, colorId, description } = product;
+    
             if (id !== '')
               return (
                 <CardFlex>
