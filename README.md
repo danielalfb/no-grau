@@ -24,23 +24,23 @@ O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', des
 
 <p align="center"><b> MOBILE </b></p>
 
-<div align="center">
+<div>
 
- <img src="/src/assets/images/home.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
+ <img align="left" src="/src/assets/images/home.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
  
- <img src="/src/assets/images/quemsomos.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
+ <img align="center" src="/src/assets/images/quemsomos.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
  
- <img src="/src/assets/images/vitrine.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
+ <img align="right" src="/src/assets/images/vitrine.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
 
 </div>
 
-<p align="center"><b> DESKTOP </b></p>
+---
+### **Demonstração do filtro**
 
-<p align="center"><kbd><img src="../src/assets/images/homedesktop.jpeg" width="450" style="border-radius: 5px" height="250" alt="Demonstração do site" src=""></kbd></p>
+<div>
+<img height="450px" width="280" alt="GIF" src="/src/assets/images/filtro.gif">
 
-<p align="center"><kbd><img src="..../src/assets/images/somosdesktop.jpeg" width="450" style="border-radius: 5px" height="250" alt="Demonstração do site" src=""></kbd></p>
-
-<p align="center"><kbd><img src="..../src/assets/images/vitrinedesktop.jpeg" width="450" style="border-radius: 5px" height="250" alt="Demonstração do site" src=""></kbd></p>
+</div>
 
 ### Pré-requisitos
 
