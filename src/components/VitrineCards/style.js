@@ -43,7 +43,6 @@ export const CardDescription = styled.p`
 `;
 
 export const CardFlex = styled.div`
-
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -96,3 +95,4 @@ export const Box = styled.div`
   }
 `;
 
+    
