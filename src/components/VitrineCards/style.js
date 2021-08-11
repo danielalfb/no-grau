@@ -25,8 +25,8 @@ export const CardText = styled.p`
   color: #000;
 
   @media screen and (max-width: 768px) {
-  width: 100%;
-  padding-right: 75px;
+  max-width: 90%;
+  padding-right: 10px;
   }
 `;
 
@@ -68,8 +68,8 @@ export const CardFlex = styled.div`
     justify-content: space-around;
     flex-wrap: wrap;
     height: 150px; 
-    width: 300px;
-    margin: 5px 30px;   
+    width: 100%;
+    margin: 5px 0;   
     border-right: none;
     border-bottom: 2px solid #E5E5E5;
     border-left: none;
