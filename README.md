@@ -26,19 +26,19 @@ O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', des
 
 <div>
 
- <img src="/src/assets/images/home.jpeg" width="265" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
+ <img src="/src/assets/images/home.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> 
  
- <img  src="/src/assets/images/quemsomos.jpeg" width="265" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
+ <img  src="/src/assets/images/quemsomos.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> 
  
- <img src="/src/assets/images/vitrine.jpeg" width="265" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
+ <img src="/src/assets/images/vitrine.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> |
 
 </div>
 
 ---
 ### **Demonstração do filtro**
 
-<div align="center">
-<img height="250px" width="400" alt="GIF" src="/src/assets/images/filtro.gif">
+<div>
+<img height="220px" width="500" alt="GIF" src="/src/assets/images/filtro.gif">
 
 </div>
 
