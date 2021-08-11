@@ -43,12 +43,50 @@ function VitrineCards() {
     }
   }
 
+  function Material(props) {
+    const material = props.material;
+
+    switch (material) {
+      case 1:
+        return 'Acetato';
+      case 2:
+        return 'Metálico';
+
+      default:
+        return 'S/I';
+    }
+  }
+
+  function Color(props) {
+    const color = props.color;
+
+    switch (color) {
+      case 1:
+        return 'Preto';
+      case 2:
+        return 'Transparente';
+      case 3:
+        return 'Tartaruga';
+
+      default:
+        return 'S/I';
+    }
+  }
+
   return (
     <>
       <Box>
         {data &&
           data.map((product) => {
-            const { id, imageUrl, name, formatId, description } = product;
+            const {
+              id,
+              imageUrl,
+              name,
+              formatId,
+              materialId,
+              colorId,
+              description,
+            } = product;
             if (id !== '')
               return (
                 <CardFlex>
@@ -58,7 +96,8 @@ function VitrineCards() {
                   <div>
                     <CardTitle>{name}</CardTitle>
                     <CardText>
-                      <Format format={formatId} />
+                      <Material material={materialId} /> |{' '}
+                      <Format format={formatId} /> | <Color color={colorId} />
                     </CardText>
                     <CardDescription>{description}</CardDescription>
                   </div>
