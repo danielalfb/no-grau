@@ -92,7 +92,7 @@ export default function Filter() {
                   labelPlacement="end"
                 />
               </RadioGroup>
-              <FormLabel className="form-label">Format</FormLabel>
+              <FormLabel className="form-label">Formato</FormLabel>
               <RadioGroup aria-label="format" column>
                 <FormControlLabel
                   value="1"
@@ -130,7 +130,7 @@ export default function Filter() {
                   labelPlacement="end"
                 />
               </RadioGroup>
-              <FormLabel className="form-label">Cores</FormLabel>
+              <FormLabel className="form-label">Cor</FormLabel>
               <RadioGroup aria-label="color" row>
                 <FormControlLabel
                   className="option-label"
