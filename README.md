@@ -26,13 +26,23 @@ O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', des
 
 <div align="center">
 
- <img width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
+ <img src="..\src\assets\images\home.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
+
+ <img src="..\src\assets\images\quemsomos.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
+
+  <img src="..\src\assets\images\vitrine.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
+
+
 
 </div>
 
 <p align="center"><b> DESKTOP </b></p>
 
-<p align="center"><kbd><img width="450" style="border-radius: 5px" height="250" alt="Demonstração do site" src=""></kbd></p>
+<p align="center"><kbd><img src="..\src\assets\images\homedesktop.jpeg" width="450" style="border-radius: 5px" height="250" alt="Demonstração do site" src=""></kbd></p>
+
+<p align="center"><kbd><img src="..\src\assets\images\somosdesktop.jpeg" width="450" style="border-radius: 5px" height="250" alt="Demonstração do site" src=""></kbd></p>
+
+<p align="center"><kbd><img src="..\src\assets\images\vitrinedesktop.jpeg" width="450" style="border-radius: 5px" height="250" alt="Demonstração do site" src=""></kbd></p>
 
 ### Pré-requisitos
 
