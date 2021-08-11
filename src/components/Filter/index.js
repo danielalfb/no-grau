@@ -40,9 +40,6 @@ export default function Filter() {
   };
 
   const handleSubmit = () => {
-    console.log('material value:', material); //conferindo quando marcamos
-    console.log('format value:', format);
-    console.log('color value:', color);
     FilterRules(); //executando o filtro
   };
 
