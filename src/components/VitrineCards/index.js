@@ -5,7 +5,6 @@ import {
   CardText,
   CardDescription,
   CardFlex,
-  Img,
 } from './style';
 
 function VitrineCards() {
@@ -42,7 +41,6 @@ function VitrineCards() {
         return 'Sem formato';
     }
   }
-
   function Material(props) {
     const material = props.material;
 
@@ -78,21 +76,14 @@ function VitrineCards() {
       <Box>
         {data &&
           data.map((product) => {
-            const {
-              id,
-              imageUrl,
-              name,
-              formatId,
-              materialId,
-              colorId,
-              description,
-            } = product;
+            const { id, imageUrl, name, formatId, materialId, colorId, description } = product;
+    
             if (id !== '')
               return (
                 <CardFlex>
-                  <Img>
+                  <div>
                     <img src={imageUrl} alt="Imagem do óculos" />
-                  </Img>
+                  </div>
                   <div>
                     <CardTitle>{name}</CardTitle>
                     <CardText>
