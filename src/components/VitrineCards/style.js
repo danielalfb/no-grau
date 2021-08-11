@@ -8,9 +8,10 @@ export const CardTitle = styled.h1`
   line-height: 23px;
   font-family: 'Roboto', sans-serif;
   color: #000;
+
   @media screen and (max-width: 768px) {
     font-size: 17px;
-    margin: 10px 20px;
+    margin: 10px 0;
   }
 `;
 
@@ -23,11 +24,6 @@ export const CardText = styled.p`
   display: flex;
   align-items: center;
   color: #000;
-
-
-  @media screen and (max-width: 768px) {
-    max-width: 90%;
-    padding-right: 10px;
 
   @media (max-width: 768px) {
     max-width: 150px;
@@ -42,7 +38,6 @@ export const CardDescription = styled.p`
   line-height: 20px;
   margin-bottom: 20px;
   color: #000;
-
   @media (max-width: 768px) {
     display: none;
   }
@@ -68,18 +63,16 @@ export const CardFlex = styled.div`
     height: auto;
     margin-bottom: 20px;
   }
-
   @media screen and (max-width: 768px) {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     height: 150px;
     width: 100%;
-    margin: 5px 0;
+    margin: 15px 0;
     border-right: none;
     border-bottom: 2px solid #e5e5e5;
     border-left: none;
-    margin: 10px 30px;
     img {
       width: 100px;
       height: auto;
@@ -88,7 +81,6 @@ export const CardFlex = styled.div`
   }
 `;
 
-
 export const Box = styled.div`
   display: flex;
   flex-direction: row;
@@ -96,10 +88,8 @@ export const Box = styled.div`
   justify-content: center;
   width: 100%;
   margin: 0 0 80px 0;
-
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
   }
 `;
-
