@@ -26,11 +26,11 @@ O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', des
 
 <div>
 
- <img align="left" src="/src/assets/images/home.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
+ <img src="/src/assets/images/home.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
  
- <img align="center" src="/src/assets/images/quemsomos.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
+ <img  src="/src/assets/images/quemsomos.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> 
  
- <img align="right" src="/src/assets/images/vitrine.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
+ <img src="/src/assets/images/vitrine.jpeg" width="280" style="border-radius: 5px" height="450" alt="Demonstração do PWA" src=""> |
 
 </div>
 
@@ -38,7 +38,7 @@ O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', des
 ### **Demonstração do filtro**
 
 <div>
-<img height="450px" width="280" alt="GIF" src="/src/assets/images/filtro.gif">
+<img height="270px" width="380" alt="GIF" src="/src/assets/images/filtro.gif">
 
 </div>
 
