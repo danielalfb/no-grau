@@ -26,16 +26,12 @@ export const CardText = styled.p`
 
 
   @media screen and (max-width: 768px) {
-
-  max-width: 90%;
-  padding-right: 10px;
-
+    max-width: 90%;
+    padding-right: 10px;
 
   @media (max-width: 768px) {
     max-width: 150px;
     font-size: 16px;
-
-
   }
 `;
 
@@ -64,9 +60,9 @@ export const CardFlex = styled.div`
   background-color: #fff;
   border-radius: 10px;
   border-top: none;
-  border-right: 2px solid #E5E5E5;
+  border-right: 2px solid #e5e5e5;
   border-bottom: none;
-  border-left: 2px solid #E5E5E5;
+  border-left: 2px solid #e5e5e5;
   img {
     width: 250px;
     height: auto;
@@ -77,11 +73,11 @@ export const CardFlex = styled.div`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 150px; 
+    height: 150px;
     width: 100%;
-    margin: 5px 0;   
+    margin: 5px 0;
     border-right: none;
-    border-bottom: 2px solid #E5E5E5;
+    border-bottom: 2px solid #e5e5e5;
     border-left: none;
     margin: 10px 30px;
     img {
@@ -93,14 +89,6 @@ export const CardFlex = styled.div`
 `;
 
 
-export const Img = styled.div`
-  height: 90px;
-  @media screen and (max-width: 768px) {
-    width: 150px;
-    height: 65px;
-  }
-`;
-
 export const Box = styled.div`
   display: flex;
   flex-direction: row;
@@ -108,7 +96,7 @@ export const Box = styled.div`
   justify-content: center;
   width: 100%;
   margin: 0 0 80px 0;
-  
+
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
