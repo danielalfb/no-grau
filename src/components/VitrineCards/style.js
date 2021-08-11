@@ -8,6 +8,10 @@ export const CardTitle = styled.h1`
   line-height: 23px;
   font-family: 'Roboto', sans-serif;
   color: #000;
+  @media screen and (max-width: 768px) {
+    font-size: 17px;
+    margin: 10px 20px;
+  }
 `;
 
 export const CardText = styled.p`
@@ -20,9 +24,15 @@ export const CardText = styled.p`
   align-items: center;
   color: #000;
 
+
+  @media screen and (max-width: 768px) {
+  width: 100%;
+  padding-right: 75px;
+
   @media (max-width: 768px) {
     max-width: 150px;
     font-size: 16px;
+
   }
 `;
 
@@ -50,7 +60,10 @@ export const CardFlex = styled.div`
   justify-content: space-around;
   background-color: #fff;
   border-radius: 10px;
-  filter: drop-shadow(2px 0px 2px rgba(0, 0, 0, 0.25));
+  border-top: none;
+  border-right: 2px solid #E5E5E5;
+  border-bottom: none;
+  border-left: 2px solid #E5E5E5;
   img {
     width: 250px;
     height: auto;
@@ -61,16 +74,20 @@ export const CardFlex = styled.div`
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    height: 150px;
-    width: 400px;
+    height: 150px; 
+    width: 400px;  
+    border-right: none;
+    border-bottom: 2px solid #E5E5E5;
+    border-left: none;
     margin: 10px 30px;
     img {
-      width: 150px;
+      width: 100px;
       height: auto;
       margin-bottom: 20px;
     }
   }
 `;
+
 
 export const Img = styled.div`
   height: 90px;
@@ -87,8 +104,10 @@ export const Box = styled.div`
   justify-content: center;
   width: 100%;
   margin: 0 0 80px 0;
+  
   @media (max-width: 768px) {
     flex-direction: column;
     align-items: center;
   }
 `;
+
