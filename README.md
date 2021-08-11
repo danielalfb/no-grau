@@ -24,21 +24,36 @@ O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', des
 
 <p align="center"><b> MOBILE </b></p>
 
-<div>
+<div class="row">
+  <div class="coluna">
+    <img src="/src/assets/images/home.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> 
+  </div>
+  
+  <div class="coluna">
+    <img  src="/src/assets/images/quemsomos.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> 
+  </div>
+  
+  <div class="coluna">
+    <img src="/src/assets/images/vitrine.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> |
+  </div>
 
- <img src="/src/assets/images/home.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> 
- 
- <img  src="/src/assets/images/quemsomos.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> 
- 
- <img src="/src/assets/images/vitrine.jpeg" width="200" style="border-radius: 5px" height="400" alt="Demonstração do PWA" src=""> |
-
+  <style>
+.coluna{
+  float: left;
+  width: 33.33%;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
 </div>
 
 ---
 ### **Demonstração do filtro**
 
 <div>
-<img height="220px" width="500" alt="GIF" src="/src/assets/images/filtro.gif">
+<img height="220px" width="480" alt="GIF" src="/src/assets/images/filtro.gif">
 
 </div>
 
