@@ -7,10 +7,4 @@ export const Banner = styled.div`
     display: block;
     margin: 10px auto;
   }
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
 `;
-
-// pendência: o footer está sobrepondo a imagem e a resolução está ruim
