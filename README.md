@@ -25,11 +25,11 @@ O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', des
 <p align="center"><b> MOBILE </b></p>
 
 <div align="middle">
-  <img src="/src/assets/images/home.jpeg" width="280" style="border-radius: 5px" height="560" alt="Demonstração do PWA">
+  <img src="/src/assets/images/home.jpeg" width="280" alt="Demonstração do PWA"/>
 
-  <img  src="/src/assets/images/quemsomos.jpeg" width="280" style="border-radius: 5px" height="560" alt="Demonstração do PWA"> 
+  <img  src="/src/assets/images/quemsomos.jpeg" width="280" alt="Demonstração do PWA"/> 
 
-  <img src="/src/assets/images/vitrine.jpeg" width="280" style="border-radius: 5px" height="560" alt="Demonstração do PWA"> 
+  <img src="/src/assets/images/vitrine.jpeg" alt="Demonstração do PWA" width="280" /> 
 </div>
 
 ---
