@@ -20,9 +20,7 @@
 O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', desenvolvido durante o **Gama Experience #37**. 
 
 ---
-### **Demonstração**
-
-<p align="left"><b> MOBILE </b></p>
+### **Demonstração da PWA**
 
 <div align="left">
   <img src="/src/assets/images/home.jpeg" width="160" style="border-radius: 5px" height="320" alt="Demonstração do PWA"/>
