@@ -57,6 +57,12 @@ export const Menu = styled.div`
 `;
 export const Logo = styled.span`
   display: flex;
-  justify-content: start;
   padding: 20px;
+
+  @media screen and (max-width: 768px) {
+    padding: 15px 0;
+    margin: 10px 0;
+    height: 85px;
+  }
 `;
+
