@@ -1,4 +1,4 @@
-<h1 align="center"></h1>
+<h1 align="center">NO GRAU, MAMMI 👋</h1>
 
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -30,21 +30,20 @@ O projeto é um portfólio de uma loja de óculos agenero chamada 'No grau', des
   <img src="/src/assets/images/vitrine.jpeg" width="160" style="border-radius: 5px" height="320" alt="Demonstração do PWA"/> 
 </div>
 
----
 ### **Demonstração do filtro**
 
 <div>
 <img height="220px" width="440" alt="GIF" src="/src/assets/images/filtro.gif">
-
 </div>
 
+---
 ### Pré-requisitos
 
-<!--ts-->
+
  * <a target="_blank" href="https://reactjs.org">React</a> 
  * <a target="_blank" href="https://npmjs.com/">NPM</a> 
  * <a target="_blank" href="https://nodejs.org/pt-br/">Node</a> 
- <!--te-->
+
 ---
 ### **Execução**
 
@@ -59,7 +58,7 @@ $ cd no-grau
 $ npm start
 
 ```
-
+---
 ### **Tecnologias**
 
 As seguintes ferramentas foram utilizadas na construção do projeto:
